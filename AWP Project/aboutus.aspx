@@ -22,12 +22,12 @@
                 <div class="developers-container">
                     <div class="developer-card">
                         <img src="profile logo.png" alt="Developer 1" class="developer-image" />
-                        <h4>Rishi Gehani</h4>
+                        <h4>Rishi</h4>
                         <p>Developer</p>
                     </div>
                     <div class="developer-card">
                         <img src="profile logo.png" alt="Developer 2" class="developer-image" />
-                        <h4>Sohan Thakur</h4>
+                        <h4>Sohan</h4>
                         <p>Developer</p>
                     </div>
                 </div>
