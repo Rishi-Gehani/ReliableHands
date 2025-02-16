@@ -16,7 +16,7 @@ namespace AWP_Project
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            Response.Redirect("billingDetails.aspx");
+            Response.Redirect("Login.aspx");
         }
     }
 }

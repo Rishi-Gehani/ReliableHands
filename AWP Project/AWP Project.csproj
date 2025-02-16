@@ -86,13 +86,14 @@
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
     <Content Include="aboutus.aspx" />
-    <Content Include="LoginSignup.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="contactus.aspx" />
     <Content Include="profile.aspx" />
     <Content Include="bookingDetails.aspx" />
     <Content Include="billingDetails.aspx" />
     <Content Include="changePassword.aspx" />
     <Content Include="bookingSuccess.aspx" />
+    <Content Include="Signup.aspx" />
     <Content Include="x logo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -118,12 +119,12 @@
     <Compile Include="aboutus.aspx.designer.cs">
       <DependentUpon>aboutus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LoginSignup.aspx.cs">
-      <DependentUpon>LoginSignup.aspx</DependentUpon>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="LoginSignup.aspx.designer.cs">
-      <DependentUpon>LoginSignup.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="contactus.aspx.cs">
       <DependentUpon>contactus.aspx</DependentUpon>
@@ -166,6 +167,13 @@
     </Compile>
     <Compile Include="bookingSuccess.aspx.designer.cs">
       <DependentUpon>bookingSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
