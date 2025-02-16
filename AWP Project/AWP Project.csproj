@@ -73,6 +73,7 @@
     <Content Include="home.css" />
     <Content Include="home_page_image.jpg" />
     <Content Include="instagram icon.png" />
+    <Content Include="jerry.png" />
     <Content Include="LoginSignup.css" />
     <Content Include="master.css" />
     <Content Include="profile logo.png" />
@@ -81,6 +82,7 @@
     <Content Include="billingDetails.css" />
     <Content Include="changePassword.css" />
     <Content Include="bookingSuccess.css" />
+    <Content Include="service.jpeg" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
     <Content Include="aboutus.aspx" />
