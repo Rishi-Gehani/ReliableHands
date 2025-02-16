@@ -86,7 +86,7 @@
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
     <Content Include="aboutus.aspx" />
-    <Content Include="Login.aspx" />
+    <Content Include="LoginSignup.aspx" />
     <Content Include="contactus.aspx" />
     <Content Include="profile.aspx" />
     <Content Include="bookingDetails.aspx" />
@@ -119,12 +119,12 @@
     <Compile Include="aboutus.aspx.designer.cs">
       <DependentUpon>aboutus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="LoginSignup.aspx.cs">
+      <DependentUpon>LoginSignup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="LoginSignup.aspx.designer.cs">
+      <DependentUpon>LoginSignup.aspx</DependentUpon>
     </Compile>
     <Compile Include="contactus.aspx.cs">
       <DependentUpon>contactus.aspx</DependentUpon>
