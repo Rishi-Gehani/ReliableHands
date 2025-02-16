@@ -14,7 +14,7 @@
                 <asp:Label ID="lblPassword" runat="server" Text="Password:" CssClass="form-label"></asp:Label>
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-input" placeholder="Enter your password"></asp:TextBox>
                 
-                <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="form-button" />
+                <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="form-button" OnClick="btnLogin_Click" />
             </div>
         </div>
     <%--login--%>
