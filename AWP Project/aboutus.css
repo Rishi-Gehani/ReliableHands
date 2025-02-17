@@ -47,6 +47,7 @@ body {
     .card h3 {
         font-family: 'Poppins', sans-serif; /* Heading font for cards */
         margin-bottom: 10px; /* Space below the heading */
+        color: #E85A4F; /* Heading color */
     }
 
     .card p {
@@ -88,6 +89,7 @@ body {
 .developer-card h4 {
     font-family: 'Poppins', sans-serif; /* Heading font for developer names */
     margin: 10px 0; /* Space above and below the name */
+    color: #E85A4F; /* Heading color */
 }
 
 .developer-card p {

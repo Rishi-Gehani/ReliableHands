@@ -9,25 +9,25 @@
         <div class="card-container">
             <div class="card">
                 <h3>What We Do</h3>
-                <p>We provide innovative solutions to help businesses grow and succeed in the digital age. Our services include web development, digital marketing, and IT consulting.</p>
+                <p>We turn worries into solutions, connecting you with experts who fix, build, and restore with care. Whether it’s the warmth of a well-lit home, the strength of a sturdy door, or the comfort of a leak-free space—we ensure quality, trust, and convenience at your doorstep.</p>
             </div>
 
             <div class="card">
                 <h3>Who We Are</h3>
-                <p>We are a team of passionate professionals dedicated to delivering high-quality services and exceptional customer experiences. Our mission is to empower businesses through technology.</p>
+                <p>We are the bridge between your needs and the hands that craft solutions. A trusted home for skilled professionals, where reliability meets expertise. Our mission is simple—bringing you peace of mind, one service at a time.</p>
             </div>
 
             <div class="card">
                 <h3>Meet the Developers</h3>
                 <div class="developers-container">
                     <div class="developer-card">
-                        <img src="profile logo.png" alt="Developer 1" class="developer-image" />
-                        <h4>Rishi</h4>
+                        <img src="developer.png" alt="Developer 1" class="developer-image" />
+                        <h4>Rishi Gehani</h4>
                         <p>Developer</p>
                     </div>
                     <div class="developer-card">
-                        <img src="profile logo.png" alt="Developer 2" class="developer-image" />
-                        <h4>Sohan</h4>
+                        <img src="developer.png" alt="Developer 2" class="developer-image" />
+                        <h4>Sohan Thakur</h4>
                         <p>Developer</p>
                     </div>
                 </div>

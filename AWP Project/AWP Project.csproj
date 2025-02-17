@@ -68,20 +68,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.css" />
+    <Content Include="developer.png" />
     <Content Include="contactus.css" />
     <Content Include="facebook icon.png" />
     <Content Include="home.css" />
-    <Content Include="home_page_image.jpg" />
     <Content Include="instagram icon.png" />
     <Content Include="jerry.png" />
     <Content Include="LoginSignup.css" />
     <Content Include="master.css" />
+    <Content Include="home_page.png" />
     <Content Include="profile logo.png" />
     <Content Include="profile.css" />
     <Content Include="bookingDetails.css" />
     <Content Include="billingDetails.css" />
     <Content Include="changePassword.css" />
     <Content Include="bookingSuccess.css" />
+    <Content Include="website logo.png" />
     <Content Include="service.jpeg" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />

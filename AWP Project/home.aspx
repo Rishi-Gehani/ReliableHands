@@ -5,7 +5,7 @@
 
     <%--image section--%>
     <div class="office-image">
-        <img src="home_page_image.jpg" alt="Our Office" />
+        <img src="home_page.png" alt="Our Office" />
     </div>
     <%--image section--%>
 
