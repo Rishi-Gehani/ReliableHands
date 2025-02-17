@@ -29,6 +29,6 @@
             <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="input-field" TextMode="Password"></asp:TextBox>
         </div>
 
-        <asp:Button ID="btnConfirmChange" runat="server" Text="Confirm Change" CssClass="btn-submit" OnClick="btnConfirmChange_Click2"    />
+        <asp:Button ID="btnConfirmChange" runat="server" Text="Confirm Change" CssClass="btn-submit"    />
     </div>
 </asp:Content>

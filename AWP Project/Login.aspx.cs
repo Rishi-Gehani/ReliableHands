@@ -16,7 +16,7 @@ namespace AWP_Project
 
        protected void btnLogin_Click(object sender, EventArgs e)
 {
-    Response.Redirect("home.aspx");
+            Response.Redirect("home.aspx");
 }
 
     }
