@@ -11,12 +11,19 @@ namespace AWP_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["user"]!=null)
+            {
+                Response.Write("Welcomwe"+Session["user"]);
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
+            }
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            Response.Redirect("LoginSignup.aspx");
+            Response.Redirect("billingDetails.aspx");
         }
     }
 }
