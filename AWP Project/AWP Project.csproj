@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.css" />
+    <Content Include="App_Data\LoginDatabase.mdf" />
+    <Content Include="App_Data\LoginDatabase_log.ldf">
+      <DependentUpon>LoginDatabase.mdf</DependentUpon>
+    </Content>
     <Content Include="developer.png" />
     <Content Include="contactus.css" />
     <Content Include="facebook icon.png" />

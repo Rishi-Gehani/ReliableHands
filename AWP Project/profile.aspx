@@ -6,7 +6,7 @@
     <div class="profile-card">
       <asp:Image ID="ProfilePicture" runat="server" ImageUrl="profile logo.png"  CssClass="profile-image" />
       <asp:Label ID="UserNameLabel" runat="server" Text="John Doe" CssClass="user-name" />
-        <asp:Button ID="logoutbtn" runat="server" Text="Logout" CssClass ="profile-button"/>
+        <asp:Button ID="logoutbtn" runat="server" Text="Logout" CssClass ="profile-button" OnClick="logoutbtn_Click"/>
     </div>
 
     <div class="profile-options">

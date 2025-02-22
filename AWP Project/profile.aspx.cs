@@ -23,5 +23,10 @@ namespace AWP_Project
         {
             Response.Redirect("contactus.aspx");
         }
+
+        protected void logoutbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -11,13 +11,12 @@ namespace AWP_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-          
+
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            Session["name"] = txtName.Text;
-            Session["phone"] = txtPhone.Text;
+
             Response.Redirect("billingDetails.aspx");
         }
     }
