@@ -11,7 +11,12 @@ namespace AWP_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            if (!IsPostBack)
+            {
+                lblCustomerName.Text = "Customer Name: " + Session["name"].ToString();
+                lblPhoneNumber.Text = "Phone Number: " + Session["phone"].ToString();
+                
+            }
         }
 
         protected void btnHome_Click(object sender, EventArgs e)
