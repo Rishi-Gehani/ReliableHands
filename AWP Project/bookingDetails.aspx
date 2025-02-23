@@ -6,8 +6,7 @@
 
         <div id="header" class="header">
             <h1>Booking Details</h1>
-            <label id="lblSelectedService" runat="server" class="service-label">Service Selected:</label>
-            <label id="lblService" runat="server" class="service-label">...</label>
+            
         </div>
         <div id="details" class="details">
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtName" Display="Dynamic" ErrorMessage="*Please enter the name" ForeColor="#CC3300" SetFocusOnError="True">*Please enter the name</asp:RequiredFieldValidator>

@@ -5,7 +5,7 @@
     <div class="container">
     <div class="profile-card">
       <asp:Image ID="ProfilePicture" runat="server" ImageUrl="profile logo.png"  CssClass="profile-image" />
-      <asp:Label ID="UserNameLabel" runat="server" Text="John Doe" CssClass="user-name" />
+      <asp:Label ID="UserNameLabel" runat="server"  CssClass="user-name" />
         <asp:Button ID="logoutbtn" runat="server" Text="Logout" CssClass ="profile-button" OnClick="logoutbtn_Click"/>
     </div>
 
@@ -18,7 +18,7 @@
 
       <h2>Review/Feedback</h2>
       <asp:TextBox ID="FeedbackTextBox" runat="server" TextMode="MultiLine" CssClass="feedback-box" />
-      <asp:Button ID="SubmitFeedbackButton" runat="server" Text="Submit Feedback" CssClass="profile-button" />
+      <asp:Button ID="SubmitFeedbackButton" runat="server" Text="Submit Feedback" CssClass="profile-button" OnClick="SubmitFeedbackButton_Click" />
     </div>
   </div>
 

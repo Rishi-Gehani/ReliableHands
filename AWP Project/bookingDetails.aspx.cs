@@ -23,6 +23,8 @@ namespace AWP_Project
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
+            Session["name"] = txtName.Text;
+            Session["phone"] = txtPhone.Text;
             Response.Redirect("billingDetails.aspx");
         }
     }

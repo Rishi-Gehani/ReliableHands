@@ -31,6 +31,7 @@ namespace AWP_Project
             if (a > 0)
             {
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Password changed successfully')</script>");
+                Response.Redirect("home.aspx");
 
             }
             else

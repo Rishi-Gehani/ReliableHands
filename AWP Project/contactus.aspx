@@ -23,7 +23,7 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtComplaint" Display="Dynamic" ErrorMessage="*Please enter your complaint/query" ForeColor="#CC3300" SetFocusOnError="True">*Please enter your complaint/query</asp:RequiredFieldValidator>
                 <asp:TextBox ID="txtComplaint" runat="server" TextMode="MultiLine" CssClass="form-input" placeholder="Describe your complaint or query" Rows="5"></asp:TextBox>
 
-                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="form-button"  />
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="form-button" OnClick="btnSubmit_Click"  />
             </div>
         </div>
     </div>
