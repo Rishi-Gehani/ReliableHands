@@ -35,19 +35,9 @@ namespace AWP_Project
             }
             else
             {
-                Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Incorrect Username and password')</script>");
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Invalid Credentials')</script>");
             }
-            //SqlDataReader dr =  cmd.ExecuteReader();
-            //if (dr.HasRows)
-            //{
-            //     Session["user"] = txtUsername.Text;
-            //    //Page.ClientScript.RegisterStartupScript(this.GetType(),"Scripts","<script>alert('Login Successful')</script>");
-            //   Response.Redirect("bookingDetails.aspx");
-            //}
-            // else
-            // {
-            //     Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Login Unsuccessful')</script>");
-            // }
+            
             con.Close();
   }
 
